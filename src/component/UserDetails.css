@@ -1,0 +1,40 @@
+.user-details {
+  margin-top: 28px;
+  padding: 20px;
+  border: 1px solid var(--accent-border);
+  border-radius: 12px;
+  background: var(--accent-bg);
+  text-align: left;
+}
+
+.user-details h2 {
+  margin: 0 0 14px;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.user-details__list {
+  display: grid;
+  gap: 8px;
+  margin: 0;
+}
+
+.user-details__row {
+  display: grid;
+  grid-template-columns: 80px 1fr;
+  gap: 12px;
+  align-items: baseline;
+}
+
+.user-details__row dt {
+  color: var(--text);
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.user-details__row dd {
+  margin: 0;
+  overflow-wrap: anywhere;
+  color: var(--text-h);
+  font-size: 14px;
+}
